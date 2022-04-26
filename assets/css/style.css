@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 493px;
+    height: 400px;
+    background-color: #228593;
+    border-radius: 26px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 18px serif;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic 14px serif;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.caixas{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+
+.caixas input{
+    width: 148px;
+    height: 43px;
+    margin-left: 10px;
+    background: #000000;
+    border-radius: 17px;
+    border: transparent;
+    color: antiquewhite;
+    font-family: 'Andika New Basic', sans-serif;
+    font: 1.1rem serif;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.calcular{
+    margin-left: 132px;
+    width: 230px;
+    height: 43px;
+    margin-top: 16px;
+    font-family: 'Andika New Basic', sans-serif;
+    background: #000000;
+    border-radius: 17px;
+    border: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 22px;
+    width: 280px;
+    height: 93px;
+    background: #000000;
+    border-radius: 17px;
+    font-family: 'Andika New Basic', sans-serif;
+    color: aliceblue;
+}

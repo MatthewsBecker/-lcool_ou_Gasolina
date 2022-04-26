@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Álcool ou</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            
+            <div class="titulo">Calculadora Álcool X Gasolina</div>
+            <p>Preencha os campos com os preços dos<br> combustíveis e descubra qual é a melhor opção.</p>
+
+            <div class="caixas">
+                <div>
+                    <label for="">Gasolina (Preço por litro)</label>
+                    <input type="number" placeholder="EX: 4,35" id="gasolina">
+                </div>
+
+                <div>
+                    <label for="">Álcool (Preço por litro)</label>
+                    <input type="number" placeholder="EX: 4,72" id="alcool">
+                </div>
+            </div>
+
+            <button class="calcular" id="calcular" onclick="calcular()">Calcular</button>
+
+            <div class="resultado" id='resultado'></div>
+
+        </div>
+    </main>
+
+</body>
+
+<script src="assets/js/script.js"></script>
+</html>
